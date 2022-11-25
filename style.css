@@ -1,0 +1,96 @@
+h1{
+    color: white;
+    font-size: xx-large;
+}
+#navi{
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+#navside{
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+
+}
+ul li a:hover{
+    color: pink;
+
+}
+#logo img{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+#abc{
+    display: flex;
+    align-items: center;
+}
+#main{
+    background-image: url(Images/5.jpeg);
+    background-image: url(Images/5.jpeg), linear-gradient(purple,blue);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#phone img{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 10px solid white;
+}
+#Heading{
+    margin-top: 50%;
+    color: purple;
+    font-size: 3rem;
+
+}
+#side{
+    display: inline-block;
+    align-items: center;
+}
+#side button{
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-size: large;
+    background-color: white;
+    color: palevioletred;
+    border: 1px solid white;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+#middle{
+    display: flex;
+    justify-content: space-around;
+}
+#middle div{
+    text-align: center;
+}
+#second{
+    display: flex;
+    background-image: linear-gradient(purple,blue);
+    height: 300px;
+    color: white;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
